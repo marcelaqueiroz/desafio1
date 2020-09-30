@@ -1,0 +1,23 @@
+.color-nav{
+    background-color: darkslateblue;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.h6-special{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.submit-button{
+    background-color: rgb(107,94,184);
+    color: white;
+}
+
+.link-custom{
+    color: black;
+    font-weight: 450;
+}

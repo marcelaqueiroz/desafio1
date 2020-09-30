@@ -39,7 +39,7 @@ function Index(props) {
       };
 
     return (
-        <Page title="Faça login na sua conta">
+        <Page title="Login">
             <Form>
                 <FormGroup>
                     <Label htmlFor="user">Usuário</Label>
@@ -49,9 +49,9 @@ function Index(props) {
                     <Label htmlFor="password">Senha</Label>
                     <Input value = {form.password} type="password" name="password" id="password" onChange={onChange} placeholder="Insira sua senha" />
                 </FormGroup>
-                <Link to="/forgotpassword"> Esqueci minha senha</Link> <br /><br />
-                <Button color='secondary' type="reset" onClick={handleReset}>Limpar Dados</Button>{' '}
-                <Button color='primary' type="button" onClick={onSubmit} >Entrar</Button>
+                <Link to="/forgotpassword" className="link-custom"> Esqueci minha senha</Link> <br /><br />
+                <Button color='secondary' type="reset" onClick={handleReset}>Limpar</Button>{' '}
+                <Button className="submit-button" type="button" onClick={onSubmit} >Entrar</Button>
             </Form>
         </Page>
     )

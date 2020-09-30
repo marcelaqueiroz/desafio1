@@ -9,13 +9,13 @@ function index(props) {
     }
 
     return (
-        <Page title="Esqueci minha senha">
-            <p> Informe seu e-mail para recuperar sua senha:</p>
+        <Page title="Recupere sua senha">
+            <p> Informe seu e-mail:</p>
             <Form>
                 <FormGroup>
                     <Input type="email" name="email" id="email" placeholder="Insira seu e-mail" />
                 </FormGroup>
-                <Button color='primary' type="button" onClick={onSubmit}>Enviar e-mail</Button>
+                <Button className="submit-button" type="button" onClick={onSubmit}>Enviar</Button>
             </Form>
         </Page>
     )

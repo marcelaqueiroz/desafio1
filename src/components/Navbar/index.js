@@ -9,6 +9,7 @@ import {
   NavLink
 } from 'reactstrap';
 import routes from '../../routes/routes';
+import '../../App.css';
 
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,8 @@ const NavbarComponent = () => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/">DESAFIO 1</NavbarBrand>
+      <Navbar className="color-nav" dark expand="md">
+        <NavbarBrand href="/">DESAFIO 1 - React</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
