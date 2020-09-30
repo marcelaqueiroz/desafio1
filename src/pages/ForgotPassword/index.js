@@ -1,6 +1,6 @@
 import React from 'react';
 import Page from '../../components/Page';
-import {Button, Form, Label, Input, FormGroup} from 'reactstrap';
+import {Button, Form, Input, FormGroup} from 'reactstrap';
 import { withRouter } from 'react-router-dom';
 
 function index(props) {

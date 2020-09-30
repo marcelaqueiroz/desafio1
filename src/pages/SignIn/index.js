@@ -30,11 +30,9 @@ function Index(props) {
     }
 
     const handleReset = () => {
-        Array.from(document.querySelectorAll("target")).forEach(
-          target => (target.value = "")
-        );
         setForm({
-          value: [{}]
+            user: "",
+            password: ""
         });
       };
 
